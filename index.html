@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="slider">
+        <article class="fade">
+          <div class="professional">
+            <div class="avatar">
+              <img src="/images/image-tanya.jpg" alt="ux engineer" />
+            </div>
+            <div class="review">
+              <img src="/images/pattern-quotes.svg" alt="quotation marks" />
+              <p>“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”</p>
+              <div class="title">
+                <h5>Tanya Sinclair</h5>
+                <h5 class="occupation">UX Engineer</h5>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="fade">
+          <div class="professional">
+            <div class="avatar">
+              <img src="/images/image-john.jpg" alt="ux engineer" />
+            </div>
+            <div class="review">
+              <img src="/images/pattern-quotes.svg" alt="quotation marks" />
+              <p>“ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”</p>
+              <div class="title">
+                <h5>John Tarkpor</h5>
+                <h5 class="occupation">Junior Front-end Developer</h5>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="arrows">
+          <img src="/images/icon-prev.svg" id="prev_button" onclick="plusSlides(-1)" alt="previous slide" />
+          <img src="/images/icon-next.svg" id="next_button" onclick="plusSlides(1)" alt="next slide" />
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
